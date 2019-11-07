@@ -1,0 +1,30 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://horizon-testnet.stellar.org/operations/530355446624257"
+    },
+    "transaction": {
+      "href": "https://horizon-testnet.stellar.org/transactions/09cb797d00fd7110f426381e7d4dc2b447f04ef2adb6422378e1bea93a55cab1"
+    },
+    "effects": {
+      "href": "https://horizon-testnet.stellar.org/operations/530355446624257/effects"
+    },
+    "succeeds": {
+      "href": "https://horizon-testnet.stellar.org/effects?order=desc\u0026cursor=530355446624257"
+    },
+    "precedes": {
+      "href": "https://horizon-testnet.stellar.org/effects?order=asc\u0026cursor=530355446624257"
+    }
+  },
+  "id": "530355446624257",
+  "paging_token": "530355446624257",
+  "transaction_successful": true,
+  "source_account": "GAIH3ULLFQ4DGSECF2AR555KZ4KNDGEKN4AFI4SU2M7B43MGK3QJZNSR",
+  "type": "create_account",
+  "type_i": 0,
+  "created_at": "2019-11-07T04:36:21Z",
+  "transaction_hash": "09cb797d00fd7110f426381e7d4dc2b447f04ef2adb6422378e1bea93a55cab1",
+  "starting_balance": "10000.0000000",
+  "funder": "GAIH3ULLFQ4DGSECF2AR555KZ4KNDGEKN4AFI4SU2M7B43MGK3QJZNSR",
+  "account": "GABSSZP2GE4JRRU5GD6KZL4JJ3VAN4QUD72D4COOS5KAMHQF32KCECVE"
+}
