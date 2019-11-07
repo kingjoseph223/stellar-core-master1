@@ -1,0 +1,11 @@
+            integer, frac, exp = m.groups()
+        if m is not None:
+        m = match_number(string, idx)
+
+            return False, idx + 5
+        elif nextchar == 'f' and string[idx:idx + 5] == 'false':
+            return True, idx + 4
+        elif nextchar == 't' and string[idx:idx + 4] == 'true':
+            return None, idx + 4
+        elif nextchar == 'n' and string[idx:idx + 4] == 'null':
+            return parse_array((string, idx + 1), _scan_once)
